@@ -1,0 +1,270 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.discount {
+  background: black;
+  color: white;
+  text-align: center;
+}
+.discount h6 {
+  padding: 10px;
+  margin: 0px;
+  font-size: 17px;
+  font-weight: 200;
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+}
+#navmenu {
+  display: flex;
+  align-items: center;
+  border-style: solid none solid solid;
+  border-width: 1px;
+  border-color: black;
+}
+
+#navmenu a {
+  width: 15%;
+  background-color: white;
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  padding: 15px 5px;
+  margin: 0px;
+  border-style: none solid none none;
+  border-width: 1px;
+  border-color: black;
+}
+#navmenu a h6 {
+  font-size: 20px;
+  font-weight: 200;
+  font-family: "Roboto", sans-serif;
+  margin: 0px;
+}
+#navmenu a:hover {
+  background-color: black;
+  color: rgb(203, 255, 61);
+  cursor: pointer;
+}
+#navmenu h5 {
+  width: 25%;
+  background-color: white;
+  text-align: center;
+  padding: 10px 5px;
+  margin: 0px;
+}
+.logo {
+  height: 200px;
+  text-align: center;
+  font-size: 50px;
+  font-family: "Secular One", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+.logo h1 {
+  margin: 0;
+  margin-top: 20px;
+}
+.logo span {
+  font-size: 20px;
+  background-color: rgb(194, 255, 72);
+  padding: 9px 50px;
+}
+.thumb {
+  display: flex;
+  text-align: center;
+}
+.thumb .sec25 {
+  width: 25%;
+  position: relative;
+}
+.thumb .sec50 {
+  width: 50%;
+  position: relative;
+}
+.thumb .sec50:hover .overlay {
+  opacity: 1;
+}
+.thumb .sec25:hover .overlay {
+  opacity: 1;
+}
+.thumb .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(rgba(165, 253, 24, 0), rgba(165, 253, 24, 0.746));
+
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  opacity: 0;
+  transition: all 0.3s ease;
+  padding-bottom: 50px;
+}
+.thumb .overlay a {
+  text-decoration: none;
+  color: black;
+  margin-bottom: -30px;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+}
+.newdrop {
+  font-size: 30px;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  padding-top: 20px;
+}
+.product {
+  padding-top: 50px;
+  text-align: center;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.card-wrap {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 5px;
+}
+.card img {
+  width: 200px;
+  transition: all 0.3s ease-in;
+}
+.card img:hover {
+  width: 250px;
+}
+
+.shopnew {
+  text-align: center;
+  padding-bottom: 20px;
+}
+.shopnew button {
+  background-color: black;
+  padding: 10px 65px;
+  color: rgb(203, 255, 61);
+  outline: none;
+  border: 2px solid black;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  transition: all 0.3s ease;
+  margin: 50px 0px;
+}
+.shopnew button:hover {
+  background-color: rgb(203, 255, 61);
+  color: black;
+}
+
+.sale {
+  display: flex;
+}
+
+.sale .sec60 img {
+  width: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.sale .sec60 {
+  width: 60%;
+  background: linear-gradient(rgb(255, 255, 254), rgb(192, 253, 24));
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5px;
+}
+.sale .sec60 h6 {
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  margin: 0;
+}
+.sale .sec60 h2 {
+  font-size: 135px;
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+}
+.sale .sec60 p {
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 200;
+  margin: 0;
+}
+.sale .sec40 {
+  width: 40%;
+}
+.offer a {
+  text-align: center;
+  color: black;
+  font-family: "Roboto", sans-serif;
+  font-size: 26px;
+}
+.foot {
+  display: flex;
+  border: 1px solid black;
+}
+.foot ul p {
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+}
+.foot .sec30 {
+  background: black;
+  color: white;
+  width: 30%;
+  text-align: center;
+  padding: 20px;
+}
+.foot .sec30 h6 {
+  font-size: 40px;
+  font-family: "Secular One", sans-serif;
+  margin: 0px;
+  padding-bottom: 30px;
+  padding-top: 20px;
+}
+.foot .sec30 a {
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+}
+.foot .sec70 {
+  text-align: center;
+  width: 70%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  font-size: 18px;
+}
+.foot .sec70 ul {
+  list-style-type: none;
+  line-height: 25px;
+  text-decoration: none;
+  padding-right: 50px;
+  font-size: 15px;
+}
+.foot .sec70 a {
+  text-decoration: none;
+  color: black;
+  font-weight: 100;
+  font-family: "Roboto", sans-serif;
+}
+.social {
+  border-style: none solid solid solid;
+  border-width: 1px;
+  border-color: black;
+  display: flex;
+}
+.social .sec30 {
+  width: 30%;
+  text-align: center;
+  padding: 20px;
+}
+.social .sec30 img {
+  padding-left: 10px;
+}
+.social .sec70 {
+  width: 70%;
+  text-align: center;
+  background-color: rgb(203, 255, 61);
+  border-style: none none none solid;
+  border-width: 1px;
+  border-color: black;
+}
